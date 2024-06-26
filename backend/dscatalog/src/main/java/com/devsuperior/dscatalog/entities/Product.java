@@ -1,5 +1,7 @@
 package com.devsuperior.dscatalog.entities;
 
+import com.devsuperior.dscatalog.dto.CategoryDTO;
+import com.devsuperior.dscatalog.dto.ProductDTO;
 import jakarta.persistence.*;
 
 import java.io.Serializable;
@@ -42,7 +44,6 @@ public class Product implements Serializable {
         this.name = name;
         this.id = id;
     }
-
 
     public Long getId() {
         return id;
